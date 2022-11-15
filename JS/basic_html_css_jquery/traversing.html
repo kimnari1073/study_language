@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>제이쿼리 메서드</title>
+    <style>
+        .menu{
+            padding: 0;
+            list-style: none;
+            width: 200px;
+            text-align: center;
+        }
+        .menu li > a{
+            background-color: #000;
+            color: #fff;
+            display: block;
+            padding: 5px;
+            border: 1px solid #ddd;
+        }
+        .sub-menu{
+            border: 1px solid #000;
+            display: none;
+        }
+        .sub-menu a{
+            display: block;
+            padding: 5px;
+        }
+        /*공지사항/갤러리 */
+        .btn{
+            width: 300px;
+        }
+        .btn span{
+            background-color: #ccc;
+            padding: 5px;
+            width: 100px;
+            display: inline-block;
+            text-align: center;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .btn span.active{
+            background-color: #fff;
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+<body>
+    <ul class="menu">
+        <li>
+            <a href="#none">Menu-1</a>
+            <div class="sub-menu">
+                <a href="#none">Sub-Menu1</a>
+                <a href="#none">Sub-Menu2</a>
+                <a href="#none">Sub-Menu3</a>
+                <a href="#none">Sub-Menu4</a>
+            </div>
+        </li>
+        <li>
+            <a href="#none">Menu-2</a>
+            <div class="sub-menu">
+                <a href="#none">Sub-Menu1</a>
+                <a href="#none">Sub-Menu2</a>
+                <a href="#none">Sub-Menu3</a>
+                <a href="#none">Sub-Menu4</a>
+            </div>
+        </li>
+    </ul>
+    <div class="btn">
+        <span>공지사항</span>
+        <span>갤러리</span>
+    </div>
+    <script src="script/jquery-1.12.4.js"></script>
+    <script src="script/traversing.js"></script>
+</body>
+</html>
