@@ -31,10 +31,18 @@
 # print("남은 지불 금액: ",price)
 # print("5천원 짜리를 한장 더 냈습니다. 거스름돈: ",5000%price)
 
-var = "PYTHON"
-ch1 = var[0]
-print(var[0]," ",var[1]," ",var[2])
-print("length of var: ",len(var))
+# var = "PYTHON"
+# ch1 = var[0]
+# print(var[0]," ",var[1]," ",var[2])
+# print("length of var: ",len(var))
 
-print("PYTHON"[0],"PYTHON"[2])
-print("PYTHON"[1:5])
+# print("PYTHON"[0],"PYTHON"[2])
+# print("PYTHON"[1:5])
+
+# print("PYTHON"[:3])
+
+num = input("실수를 입력하세요 >>")
+num = num.replace(".","")
+
+sum = int(num[0])+int(num[1])+int(num[2])+int(num[3])+int(num[4])+int(num[5])
+print("sum: " ,sum)
