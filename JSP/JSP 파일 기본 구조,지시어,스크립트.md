@@ -24,8 +24,13 @@ JSP 페이지를 자바(서블릿) 코드로 벼노한하는데 필요한 정보
       ```
       선언된 변수는 java파일로 변환될 때 메서드의 로컬변수로 선언된다.
       
-3. 기본 객체
-4. 액션 태그
+3. <a href="https://github.com/kimnari1073/study_language/blob/main/JSP/%EB%82%B4%EC%9E%A5%20%EA%B0%9D%EC%B2%B4.md" target="_blank">기본 객체</a>
+
+4. <a href="https://github.com/kimnari1073/study_language/blob/main/JSP/action%20tag.md" target="_blank">액션 태그</a>
 5. 표현 언어
 6. 커스텀 태그
 7. 주석
+  - ```
+    <!-- html 주석 -->
+    <%-- jsp 주석 --%>
+    // java 주석
